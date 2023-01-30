@@ -23,7 +23,7 @@ describe('Search', () => {
 
         store.dispatch = jest.fn();
 
-        render(
+       render(
             <Provider store={store}>
                 <Search />
             </Provider>
