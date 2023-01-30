@@ -10,6 +10,7 @@ This project is a simple implementation of a GitHub repository search using the 
 - Display loading spinner while the search is in progress
 - Font Awesome Icons
 - End-to-end test
+- State Management
 
 ## Getting Started
 
@@ -34,6 +35,7 @@ npm test
 - [GitHub API](https://docs.github.com/en/rest/)
 - [React Testing Library](hhttps://testing-library.com/docs/react-testing-library/)
 - [Jest](https://jestjs.io/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
 
 
 ## Author
