@@ -1,0 +1,145 @@
+
+
+
+
+/* Add some basic styling for the search container */
+.search {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  justify-items: stretch;
+  width: 100%;
+  position: relative;
+}
+
+.search__icon {
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+}
+
+/* Style the search form */
+.search form {
+  display: flex;
+}
+
+/* Style the search input */
+.search__input {
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+
+/* Style the error message */
+.search__error {
+  color: red;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  align-self: center;
+}
+
+/* Style the search results container */
+.search__results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Style the individual search result */
+.search__result {
+  width: 40%;
+  margin: 0.5rem;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 0.25rem;
+  background: white;
+  transition: all  1s;
+}
+
+.search__result:hover {
+  background: #E0EAFC;
+  background-color: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+  background-color: linear-gradient(to right, #CFDEF3, #E0EAFC);
+}
+
+/* Style the search result link */
+.search__result-link {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #34568B;
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 300ms;
+}
+
+.search__result-link:hover {
+  text-decoration-color: rgb(39, 37, 37);
+}
+
+/* Style the search result description */
+.search__result-description {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+/* Style the pagination container */
+.search__pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/* Style the pagination buttons */
+.search__pagination-button {
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  transition: all  1s;
+}
+
+.search__pagination-button:hover {
+  background-color: #fff;
+  color: #3f51b5;
+}
+
+
+/* Style the disabled pagination buttons */
+.search__pagination-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Style the pagination page info */
+.search__pagination-page {
+  margin: 0 1rem;
+  font-size: 0.75rem;
+}
+
+/* Style the select box */
+.search__pagination select {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+  background-color: #f5f5f5;
+}
+
+/* Style the loader container*/
+.custom-loader-container {
+  display: flex;
+  height: 5px;
+  justify-content: center;
+}
